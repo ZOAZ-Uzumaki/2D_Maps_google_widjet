@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+	<name>2d-2d-maps-moduls.</name>
+	<author>ZOAZ</author>
+	<creationDate>28.01.2023</creationDate>
+	<copyright>none corp</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>timurkosenko2020@gmail.com</authorEmail>
+	<authorUrl>https://github.com/ZOAZ-Uzumaki?tab=repositories</authorUrl>
+	<version>0.0.3</version>
+	<description>MOD_LOGIN_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Module\Login</namespace>
+	<files>
+		<filename module="2d-maps-moduls">2d-maps-moduls.php</filename>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/mod_login.ini</language>
+		<language tag="en-GB">language/en-GB/mod_login.sys.ini</language>
+	</languages>
+	<help key="Site_Modules:_Login" />
+		
+</extension>
